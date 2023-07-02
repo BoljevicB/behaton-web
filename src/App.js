@@ -1,4 +1,5 @@
 import './App.css';
+import Gallery from './components/Gallery';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 import Stats from './components/Stats';
@@ -11,6 +12,8 @@ function App() {
       </div>
       <Hero/>
       <Stats/>
+      <Gallery/>
+     
     </div>
   );
 }
