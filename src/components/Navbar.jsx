@@ -17,8 +17,10 @@ const Navbar = () => {
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto' >
         <div className='flex flex-row gap-1'><img src={Logo} alt='logo' className='w-8 h-8'/> <h1 className='w-full text-3xl font-bold'>BEHAMONT</h1></div>
         <ul className='hidden md:flex text-xl font-medium'>
-            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Main</Link></li>
-            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Catalog</Link></li>
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Home</Link></li>
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Products</Link></li>
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Services</Link></li>
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Reference</Link></li> 
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/blog'>Blog</Link></li>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/about'>About</Link></li>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/contact'>Contact</Link></li>
