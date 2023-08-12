@@ -18,9 +18,9 @@ const Navbar = () => {
         <div className='flex flex-row gap-1'><img src={Logo} alt='logo' className='w-8 h-8'/> <h1 className='w-full text-3xl font-bold'>BEHAMONT</h1></div>
         <ul className='hidden md:flex text-xl font-medium'>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Home</Link></li>
-            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Products</Link></li>
-            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Services</Link></li>
-            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Reference</Link></li> 
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/products'>Products</Link></li>
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/services'>Services</Link></li>
+            <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/references'>Reference</Link></li> 
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/blog'>Blog</Link></li>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/about'>About</Link></li>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/contact'>Contact</Link></li>
@@ -34,9 +34,11 @@ const Navbar = () => {
     <h1 className='text-3xl font-bold m-6 py-2' >BEHAMONT</h1>
        
         <ul className='uppercase p-4 '>
-            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Main</Link></li>
-            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/catalog'>Catalog</Link></li>
-            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/blog'>Blog</Link></li>
+            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Home</Link></li>
+            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/products'>Products</Link></li>
+            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/services'>Services</Link></li>
+            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/references'>Reference</Link></li>
+            <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/blog'>Blog</Link></li> 
             <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/about'>About</Link></li>
             <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/contact'>Contact</Link></li> 
         </ul>

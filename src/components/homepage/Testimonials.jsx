@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testimonials = () => {
   return (
-    <section className="my-8 dark:bg-gray-800 dark:text-gray-100">
+    <section className="my-2 dark:bg-gray-800 dark:text-gray-100">
 	<div className="container flex flex-col items-center mx-auto mb-4 md:p-10 md:px-12">
 		<h1 className="p-4 text-4xl font-semibold leadi text-center">What our customers are saying about us</h1>
 	</div>

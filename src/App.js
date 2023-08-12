@@ -1,13 +1,11 @@
 import './App.css';
-import Footer from './components/Footer';
-import Gallery from './components/Gallery';
-import Hero from './components/Hero';
-import Homegallery from './components/Homegallery';
-import { Homereferences } from './components/Homereferences';
+import {Route, Routes} from 'react-router-dom';
+
 import Navbar from './components/Navbar';
-import Ourwork from './components/Ourwork';
-import Stats from './components/Stats';
-import Testimonials from './components/Testimonials';
+import Home from './components/homepage/Home';
+import Products from './components/productspage/Products';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -15,11 +13,11 @@ function App() {
       <div className='px-3'>
       <Navbar/>
       </div>
-      <Hero/>
-      <Ourwork/>
-      <Homegallery/>
-      <Homereferences/>
-      <Testimonials/>
+      <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/products" element={<Products/>}></Route>
+        </Routes>
+
       <Footer/>
      
     </div>

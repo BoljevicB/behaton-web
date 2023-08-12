@@ -1,8 +1,8 @@
 import React from 'react'
 
-export const Homereferences = () => {
+const Homereferences = () => {
   return (
-    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-12 lg:py-12">
+    <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-12 lg:py-12">
       <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
             <div className="flex items-center gap-12">
                 <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Our Work</h2>
@@ -76,3 +76,5 @@ export const Homereferences = () => {
     </div>
   )
 }
+
+export default Homereferences
