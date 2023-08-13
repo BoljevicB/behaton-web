@@ -30,7 +30,7 @@ const Navbar = () => {
         { nav ? <SlArrowLeft size={25}/> : <SlMenu size={25}/> }
         
     </div>
-    <div className={ nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 z-[100]' : 'fixed left-[-100%]' } >
+    <div className={ nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 z-[100] lg:hidden md:hidden' : 'fixed left-[-100%]' } >
     <h1 className='text-3xl font-bold m-6 py-2' >BEHAMONT</h1>
        
         <ul className='uppercase p-4 '>
