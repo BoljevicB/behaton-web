@@ -1,12 +1,12 @@
 import React from 'react'
-import One from '../imgs/tile1.jpg'
-import Two from '../imgs/tile2.jpg'
-import Three from '../imgs/tile3.jpg'
-import Four from '../imgs/tile4.jpg'
-import Five from '../imgs/tile5.jpg'
-import Six from '../imgs/tile6.jpg'
-import Seven from '../imgs/tile7.jpg'
-import Eight from '../imgs/tile8.jpg'
+import One from '../../imgs/tile1.jpg'
+import Two from '../../imgs/tile2.jpg'
+import Three from '../../imgs/tile3.jpg'
+import Four from '../../imgs/tile4.jpg'
+import Five from '../../imgs/tile5.jpg'
+import Six from '../../imgs/tile6.jpg'
+import Seven from '../../imgs/tile7.jpg'
+import Eight from '../../imgs/tile8.jpg'
 
 const Tiles = () => {
   return (

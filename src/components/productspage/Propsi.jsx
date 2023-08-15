@@ -1,18 +1,30 @@
 import React from 'react';
 import data from '../../productdata.js'
 
+
 const Propsi = () => {
     const {productItems} = data;
     
 
   return (
-    
-    
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-items-center mx-auto gap-4 px-10 mt-10">
+
+    <>
+    <div className=" py-10 px-4 mb-4 flex items-center justify-center gap-8 sm:mb-8 md:mb-12">
+            <div className="flex items-center gap-12 mt-10">
+                <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Our Products</h2>
+
+                <p className="max-w-screen-sm text-gray-500 md:block">This is a section of some simple filler text,
+                    also known as placeholder text. It shares some characteristics of a real written text.</p>
+            </div>
+        </div>
+        
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-items-center mx-auto gap-4 px-10">
+
             {productItems.map((productItems) =>(
+
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
-            <img className="rounded-t-lg" src={productItems.image}  alt="aa" />
+            <img className="rounded-t-lg" src={productItems.image}  alt="tile-image" />
         </a>
         <div className="p-5">
             <div className=' flex justify-between p-4'>
@@ -25,12 +37,11 @@ const Propsi = () => {
             </a>
             </div>
             <p className="mb-3 font-normal text-justify text-gray-700 dark:text-gray-400">{productItems.productDescription}</p>
-            
         </div>
         </div>
     ))}
     </div>
-
+    </>
   )
 };
 
