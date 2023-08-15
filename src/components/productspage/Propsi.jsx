@@ -8,7 +8,7 @@ const Propsi = () => {
   return (
     
     
-        <>
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-items-center mx-auto gap-4 px-10 mt-10">
             {productItems.map((productItems) =>(
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
@@ -29,7 +29,7 @@ const Propsi = () => {
         </div>
         </div>
     ))}
-    </>
+    </div>
 
   )
 };
