@@ -1,7 +1,7 @@
 import React from 'react'
 import Headerprod from './Headerprod'
-import Tiles from './Tiles'
 import Propsi from './Propsi'
+import { Bottomproducts } from './Bottomproducts'
 
 
 const Products = () => {
@@ -12,7 +12,8 @@ const Products = () => {
 
         <Headerprod/>
         <Propsi/>
-        {/* <Tiles/> */}
+        <Bottomproducts/>
+        
     </div>
   )
 }
