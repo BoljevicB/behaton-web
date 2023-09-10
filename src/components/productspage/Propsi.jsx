@@ -8,7 +8,7 @@ const Propsi = () => {
 
   return (
 
-    <>
+    <div className='mx-auto max-w-screen-2xl '>
     <div className=" py-10 px-4 mb-4 flex items-center justify-center gap-8 sm:mb-8 md:mb-12">
             <div className="flex items-center gap-12 mt-10">
                 <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Our Products</h2>
@@ -18,15 +18,15 @@ const Propsi = () => {
             </div>
         </div>
         
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-items-center mx-auto gap-4 px-10">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 justify-items-center mx-auto gap-4 px-10 ">
 
             {productItems.map((productItems) =>(
 
-                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-[#e3e3e3]">
         <a href="#">
             <img className="rounded-t-lg" src={productItems.image}  alt="tile-image" />
         </a>
-        <div className="p-5">
+        <div className="p-5 ">
             <div className=' flex justify-between p-4'>
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{productItems.name}</h5>
     
@@ -41,7 +41,7 @@ const Propsi = () => {
         </div>
     ))}
     </div>
-    </>
+    </div>
   )
 };
 
