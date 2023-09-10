@@ -1,4 +1,16 @@
 import React from 'react'
+import Ref1 from '../../imgs/reference10.jpg'
+import Ref2 from '../../imgs/reference9.jpg'
+import Ref3 from '../../imgs/reference5.jpg'
+import Ref4 from '../../imgs/reference15.jpg'
+import Ref5 from '../../imgs/reference12.jpg'
+import Ref6 from '../../imgs/reference11.jpg'
+import Ref7 from '../../imgs/reference2.jpg'
+import Ref8 from '../../imgs/reference6.jpg'
+import Ref9 from '../../imgs/reference13.jpg'
+import Ref10 from '../../imgs/reference4.jpg'
+import Ref11 from '../../imgs/reference14.jpg'
+import Ref12 from '../../imgs/reference8.jpg'
 
 const Galleryreferences = () => {
   return (
@@ -26,7 +38,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://images.unsplash.com/photo-1580556369905-c0ac1ec6a72e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80" className="w-full " alt="chair" />
+            <img src={Ref1} className="w-full " alt="chair" />
           </div>
           <div className="sm:w-1/2 sm:mt-0 mt-4 relative hover:scale-105 transition ease-out duration-300">
             <div>
@@ -42,7 +54,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full" alt="wall design" />
+            <img src={Ref2} className="w-full" alt="wall design" />
           </div>
         </div>
         <div className="relative hover:scale-105 transition ease-out duration-300">
@@ -59,8 +71,8 @@ const Galleryreferences = () => {
               </a>
             </div>
           </div>
-          <img src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
-          <img className="w-full mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
+          <img src={Ref3} alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
+          <img className="w-full mt-4 sm:hidden" src={Ref3} alt="sitting place" />
         </div>
       </div>
       <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
@@ -78,8 +90,8 @@ const Galleryreferences = () => {
               </a>
             </div>
           </div>
-          <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full sm:block hidden" />
-          <img className="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+          <img src={Ref4} alt="sitting place" className="w-full sm:block hidden" />
+          <img className="w-full sm:hidden" src={Ref4} alt="sitting place" />
         </div>
         <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
           <div className="relative w-full hover:scale-105 transition ease-out duration-300">
@@ -96,7 +108,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full" alt="chair" />
+            <img src={Ref5} className="w-full" alt="chair" />
           </div>
           <div className="relative w-full sm:mt-0 mt-4 hover:scale-105 transition ease-out duration-300">
             <div>
@@ -112,7 +124,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full" alt="wall design" />
+            <img src={Ref6} className="w-full" alt="wall design" />
           </div>
         </div>
       </div>
@@ -135,7 +147,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/DYxtCJq/img-1.png" className="w-full " alt="chair" />
+            <img src={Ref7} className="w-full " alt="chair" />
           </div>
           <div className="sm:w-1/2 sm:mt-0 mt-4 relative hover:scale-105 transition ease-out duration-300">
             <div>
@@ -151,7 +163,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/3C5HvxC/img-2.png" className="w-full" alt="wall design" />
+            <img src={Ref8} className="w-full" alt="wall design" />
           </div>
         </div>
         <div className="relative hover:scale-105 transition ease-out duration-300">
@@ -168,8 +180,8 @@ const Galleryreferences = () => {
               </a>
             </div>
           </div>
-          <img src="https://i.ibb.co/Ms4qyXp/img-3.png" alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
-          <img className="w-full mt-4 sm:hidden" src="https://i.ibb.co/6XYbN7f/Rectangle-29.png" alt="sitting place" />
+          <img src={Ref9} alt="sitting place" className="w-full mt-8 md:mt-6 hidden sm:block" />
+          <img className="w-full mt-4 sm:hidden" src={Ref9} alt="sitting place" />
         </div>
       </div>
       <div className="lg:w-1/2 xl:ml-8 lg:ml-4 lg:mt-0 md:mt-6 mt-4 lg:flex flex-col justify-between">
@@ -187,8 +199,8 @@ const Galleryreferences = () => {
               </a>
             </div>
           </div>
-          <img src="https://i.ibb.co/6Wfjf2w/img-4.png" alt="sitting place" className="w-full sm:block hidden" />
-          <img className="w-full sm:hidden" src="https://i.ibb.co/dpXStJk/Rectangle-29.png" alt="sitting place" />
+          <img src={Ref10} alt="sitting place" className="w-full sm:block hidden" />
+          <img className="w-full sm:hidden" src={Ref10} alt="sitting place" />
         </div>
         <div className="sm:flex items-center justify-between xl:gap-x-8 gap-x-6 md:mt-6 mt-4">
           <div className="relative w-full hover:scale-105 transition ease-out duration-300">
@@ -205,7 +217,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/3yvZBpm/img-5.png" className="w-full" alt="chair" />
+            <img src={Ref11} className="w-full" alt="chair" />
           </div>
           <div className="relative w-full sm:mt-0 mt-4 hover:scale-105 transition ease-out duration-300">
             <div>
@@ -221,7 +233,7 @@ const Galleryreferences = () => {
                 </a>
               </div>
             </div>
-            <img src="https://i.ibb.co/gDdnJb5/img-6.png" className="w-full" alt="wall design" />
+            <img src={Ref12} className="w-full" alt="wall design" />
           </div>
         </div>
       </div>
