@@ -2,7 +2,7 @@ import React from 'react';
 import data from '../../productdata.js'
 
 
-const Propsi = () => {
+const Prodcards = () => {
     const {productItems} = data;
     
 
@@ -45,4 +45,4 @@ const Propsi = () => {
   )
 };
 
-export default Propsi
+export default Prodcards
