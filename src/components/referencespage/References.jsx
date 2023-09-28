@@ -1,14 +1,14 @@
 import React from 'react'
-import Headerreferences from './Headerreferences'
 import Galleryreferences from './Galleryreferences'
+import Homegallery from '../homepage/Homegallery'
+import Contactus from './Contactus'
 
 const References = () => {
   return (
     <div>
-
-        <Headerreferences/>
         <Galleryreferences/>
-        
+        <Homegallery/>
+        <Contactus/>
     </div>
   )
 }
