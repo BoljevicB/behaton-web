@@ -2,7 +2,8 @@ import React from 'react'
 import Headerprod from './Headerprod'
 import Prodcards from './Prodcards'
 import { Bottomproducts } from './Bottomproducts'
-import Orderproducts from './Orderproducts'
+import Contactus from '../referencespage/Contactus'
+import Steps from './Steps'
 
 
 const Products = () => {
@@ -13,8 +14,8 @@ const Products = () => {
 
         <Headerprod/>
         <Prodcards/>
-        <Bottomproducts/>
-        <Orderproducts/>
+        <Steps/>
+        <Contactus/>
         
     </div>
   )
