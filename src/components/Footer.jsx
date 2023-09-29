@@ -18,7 +18,7 @@ const Footer = () => {
                     <a className="hover:text-[#1A5DAD]" href="#">Services</a>
                 </li>
                 <li className="my-2">
-                    <a className="hover:text-[#1A5DAD]" href="#">Reference</a>
+                    <Link to="/references" className="hover:text-[#1A5DAD]" >Reference</Link>
                 </li>
                 <li className="my-2">
                     <a className="hover:text-[#1A5DAD]" href="#">Blog</a>
