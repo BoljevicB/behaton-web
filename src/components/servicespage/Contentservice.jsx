@@ -2,54 +2,100 @@ import React from 'react'
 
 const Contentservice = () => {
   return (
-    <div className="relative flex flex-col  py-16 lg:pt-0 lg:flex-col lg:pb-0">
-    <div className="flex flex-col items-start w-full max-w-xl px-4 mx-auto lg:px-8 lg:max-w-screen-xl">
-      <div className="mb-16 lg:my-40 lg:max-w-lg lg:pr-5">
-        <div className="max-w-xl mb-6">
-          <div>
-            <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-              New Colaboration
-            </p>
-          </div>
-          <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            The quick, brown fox
-            <br className="hidden md:block" />
-            jumps over{' '}
-            <span className="inline-block text-deep-purple-accent-400">
-              a lazy dog
-            </span>
-          </h2>
-          <p className="text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+    <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20 flex flex-col gap-6">
+
+      <h1 className='text-center text-3xl md:text-4xl lg:text-5xl py-2 font-extrabold'>Nase Usluge</h1>
+
+
+      <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto gap">
+        <div className="relative lg:w-1/2">
+          <img
+            src="https://images.unsplash.com/photo-1581094480465-4e6c25fb4a52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt=""
+            className="object-cover w-full lg:absolute h-80 lg:h-full"
+          />
+          <svg
+            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+            viewBox="0 0 20 104"
+            fill="currentColor"
+          >
+            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
+          </svg>
+        </div>
+        <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
+          
+          <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+            Proizvodnja
+          </h5>
+          <p className="mb-5 text-gray-800">
+            <span className="font-bold">Lorem ipsum</span> dolor sit amet,
+            consectetur adipiscing elit. Etiam sem neque, molestie sit amet
+            venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend,
+            sed consequat odio sollicitudin.
           </p>
         </div>
-        <div className="flex flex-col items-center md:flex-row">
-          <a
-            href="/"
-            className="inline-flex items-center justify-center w-full h-12 px-6 mb-3 font-medium tracking-wide text-white transition duration-200 rounded shadow-md md:w-auto md:mr-4 md:mb-0 bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
+      </div>
+
+      <div className="flex flex-col  max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
+        <div className="relative lg:w-1/2">
+          <img
+            src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt=""
+            className="object-cover w-full lg:absolute h-80 lg:h-full"
+          />
+          <svg
+            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+            viewBox="0 0 20 104"
+            fill="currentColor"
           >
-            Apply Now
-          </a>
-          <a
-            href="/"
-            aria-label=""
-            className="inline-flex items-center font-semibold text-gray-800 transition-colors duration-200 hover:text-deep-purple-accent-700"
-          >
-            Learn more
-          </a>
+            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
+          </svg>
+        </div>
+        <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
+          
+          <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+            Transporta
+          </h5>
+          <p className="mb-5 text-gray-800">
+            <span className="font-bold">Lorem ipsum</span> dolor sit amet,
+            consectetur adipiscing elit. Etiam sem neque, molestie sit amet
+            venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend,
+            sed consequat odio sollicitudin.
+          </p>
         </div>
       </div>
+
+
+      <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto">
+        <div className="relative lg:w-1/2">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1682724599680-c62ea33db46f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2071&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            alt=""
+            className="object-cover w-full lg:absolute h-80 lg:h-full"
+          />
+          <svg
+            className="absolute top-0 right-0 hidden h-full text-white lg:inline-block"
+            viewBox="0 0 20 104"
+            fill="currentColor"
+          >
+            <polygon points="17.3036738 5.68434189e-14 20 5.68434189e-14 20 104 0.824555778 104" />
+          </svg>
+        </div>
+        <div className="flex flex-col justify-center p-8 bg-white lg:p-16 lg:pl-10 lg:w-1/2">
+          
+          <h5 className="mb-3 text-3xl font-extrabold leading-none sm:text-4xl">
+            Ugradnja
+          </h5>
+          <p className="mb-5 text-gray-800">
+            <span className="font-bold">Lorem ipsum</span> dolor sit amet,
+            consectetur adipiscing elit. Etiam sem neque, molestie sit amet
+            venenatis et, dignissim ut erat. Sed aliquet velit id dui eleifend,
+            sed consequat odio sollicitudin.
+          </p>
+        </div>
+      </div>
+
     </div>
-    <div className="inset-y-0 right-0 w-full max-w-xl px-4 mx-auto lg:pl-8 lg:pr-0 lg:mb-0 lg:mx-0 lg:w-1/2 lg:max-w-full lg:absolute xl:px-0">
-      <img
-        className="object-cover w-full h-56 rounded shadow-lg lg:rounded-none lg:shadow-none sm:h-96 lg:h-full"
-        src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-        alt=""
-      />
-    </div>
-  </div>
   )
 }
 

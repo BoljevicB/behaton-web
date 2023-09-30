@@ -1,12 +1,12 @@
 import React from 'react'
-import Servicehero from './Servicehero'
 import Contentservice from './Contentservice'
+import Contactus from '../referencespage/Contactus'
 
 const Services = () => {
   return (
     <>
-    <Servicehero />
     <Contentservice />
+    <Contactus/>
     </>
   )
 }
