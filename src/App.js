@@ -7,6 +7,7 @@ import Products from './components/productspage/Products';
 import Footer from './components/Footer';
 import References from './components/referencespage/References';
 import Services from './components/servicespage/Services';
+import Blog from './components/blogpage/Blog';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path="/products" element={<Products/>}></Route>
             <Route path="/references" element={<References/>}></Route>
             <Route path="/services" element={<Services/>}></Route>
+            <Route path="/blog" element={<Blog/>}></Route>
         </Routes>
 
       <Footer/>
