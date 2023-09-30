@@ -14,8 +14,8 @@ const Navbar = () => {
     
 
   return (
-    <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto' >
-        <div className='flex flex-row gap-1'><img src={Logo} alt='logo' className='w-8 h-8'/> <h1 className='w-full text-3xl font-bold mr-2'>BEHAMONT</h1></div>
+    <div className='flex justify-between items-center p-2 max-w-[1240px] mx-auto' >
+        <div className='flex flex-row gap-1'><img src={Logo} alt='logo' className='w-8 h-8'/> <Link to="/"><h1 className='w-full text-3xl font-bold mr-2'>BEHAMONT</h1></Link></div>
         <ul className='hidden md:flex text-xl font-medium ml-4'>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Home</Link></li>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/products'>Products</Link></li>
