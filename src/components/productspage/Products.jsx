@@ -1,7 +1,6 @@
 import React from 'react'
 import Headerprod from './Headerprod'
 import Prodcards from './Prodcards'
-import { Bottomproducts } from './Bottomproducts'
 import Contactus from '../referencespage/Contactus'
 import Steps from './Steps'
 

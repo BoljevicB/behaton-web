@@ -20,7 +20,7 @@ const Homereferences = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.unsplash.com/photo-1607143895571-7316adfb8513?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://arming.rs/uploads/2016/02/15.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
             <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
@@ -34,7 +34,7 @@ const Homereferences = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.unsplash.com/photo-1588412886883-ce35bf60f8e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="http://behaton-ruma.com/wp-content/gallery/galerija-radova-1/IM006568.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
             <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
@@ -48,7 +48,7 @@ const Homereferences = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://plus.unsplash.com/premium_photo-1661286705410-edb4c9bde72a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="http://behaton-ruma.com/wp-content/gallery/galerija-radova-1/IM006473.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
             <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
@@ -62,7 +62,7 @@ const Homereferences = () => {
           <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
             <img
               className="object-cover w-full h-56 md:h-64 xl:h-80"
-              src="https://images.unsplash.com/photo-1566568601836-c8ac498b85e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src="https://www.behaton-steingarten.com/zips/betonske-ploce-smederevo-beograd-zrenjanin-i-velika-plana-gallery/bigs/IMG-0288ba6515774ac9cd11c12b66b2fa48-V.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
             <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
