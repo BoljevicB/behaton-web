@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import References from './components/referencespage/References';
 import Services from './components/servicespage/Services';
 import Blog from './components/blogpage/Blog';
+import About from './components/aboutpage/About';
+import Contactspage from './components/contactpage/Contactspage';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Route path="/references" element={<References/>}></Route>
             <Route path="/services" element={<Services/>}></Route>
             <Route path="/blog" element={<Blog/>}></Route>
+            <Route path="/about" element={<About/>}></Route>
+            <Route path="/contact" element={<Contactspage/>}></Route>
         </Routes>
 
       <Footer/>

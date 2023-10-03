@@ -11,8 +11,8 @@ const Footer = () => {
     <Link to="/services" className="hover:text-gray-900">Services</Link>
     <Link to="/references" className="hover:text-gray-900" >Reference</Link>
         <Link to="/blog" className="hover:text-gray-900">Blog</Link>
-        <a className="hover:text-gray-900" href="#">About</a>
-        <a class="hover:text-gray-900" href="#">Contact</a>
+        <Link to="/about" className="hover:text-gray-900">About</Link>
+        <Link to="/contact" class="hover:text-gray-900">Contact</Link>
     </nav>
     
     <div className="flex justify-center space-x-5">
