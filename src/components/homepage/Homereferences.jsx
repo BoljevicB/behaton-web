@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Homereferences = () => {
   return (
-    <div className="px-4 py-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-12 lg:py-12">
+    <div className="px-4 pt-6 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-2xl md:px-24 lg:px-12 lg:py-12">
       <div className="mb-4 flex items-center justify-between gap-8 sm:mb-8 md:mb-12">
             <div className="flex items-center gap-12">
                 <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Our Work</h2>
@@ -17,13 +17,13 @@ const Homereferences = () => {
         </div>
       <div className="grid gap-6 row-gap-5 mb-8 lg:grid-cols-4 sm:row-gap-6 sm:grid-cols-2">
         <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+          <div className="relative overflow-hidden bg-gray-100 rounded-lg shadow-lg">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              className="object-cover object-center transition duration-200 hover:scale-110 w-full h-56 md:h-64 xl:h-80"
               src="https://arming.rs/uploads/2016/02/15.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
-            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
+            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-20">
               <p className="text-sm font-medium tracking-wide text-white">
                 Sed ut perspiciatis unde omnis iste natus error
               </p>
@@ -31,13 +31,13 @@ const Homereferences = () => {
           </div>
         </a>
         <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+          <div className="relative overflow-hidden bg-gray-100 rounded-lg shadow-lg">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              className="object-cover object-center transition duration-200 hover:scale-110 w-full h-56 md:h-64 xl:h-80"
               src="http://behaton-ruma.com/wp-content/gallery/galerija-radova-1/IM006568.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
-            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
+            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-20">
               <p className="text-sm font-medium tracking-wide text-white">
                 Leverage agile frameworks to provide a robust synopsis
               </p>
@@ -45,13 +45,13 @@ const Homereferences = () => {
           </div>
         </a>
         <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+          <div className="relative overflow-hidden  bg-gray-100 rounded-lg shadow-lg ">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              className="object-cover object-center transition duration-200 hover:scale-110 w-full h-56 md:h-64 xl:h-80"
               src="http://behaton-ruma.com/wp-content/gallery/galerija-radova-1/IM006473.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
-            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
+            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-20">
               <p className="text-sm font-medium tracking-wide text-white">
                 Dingy I'm tellin' you rhubaahb Bangah Jo-Jeezly
               </p>
@@ -59,13 +59,13 @@ const Homereferences = () => {
           </div>
         </a>
         <a href="/" aria-label="View Item">
-          <div className="relative overflow-hidden transition duration-200 transform rounded shadow-lg hover:-translate-y-2 hover:shadow-2xl">
+          <div className="relative overflow-hidden bg-gray-100 rounded-lg shadow-lg ">
             <img
-              className="object-cover w-full h-56 md:h-64 xl:h-80"
+              className="object-cover object-center transition duration-200 hover:scale-110 w-full h-56 md:h-64 xl:h-80"
               src="https://www.behaton-steingarten.com/zips/betonske-ploce-smederevo-beograd-zrenjanin-i-velika-plana-gallery/bigs/IMG-0288ba6515774ac9cd11c12b66b2fa48-V.jpg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
               alt=""
             />
-            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-50">
+            <div className="absolute inset-x-0 bottom-0 px-6 py-4 bg-black bg-opacity-20">
               <p className="text-sm font-medium tracking-wide text-white">
                 Rough pomfret lemon shark plownose chimaera
               </p>

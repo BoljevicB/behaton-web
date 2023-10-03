@@ -3,7 +3,7 @@ import React from 'react'
 const Ourwork = () => {
   return (
     <div class="p-4">
-    <div class="container mx-auto py-12">
+    <div class="container mx-auto lg:pt-2">
         <h1 class="text-4xl font-bold text-gray-800 text-center mb-8">
         Behaton – praktičnost i estetika u jednom.
 

@@ -24,7 +24,7 @@ const Prodcards = () => {
 
                 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-100">
         <a href="#">
-            <img className="rounded-t-lg" src={productItems.image}  alt="tile-image" />
+            <img className="rounded-t-lg " src={productItems.image}  alt="tile-image" />
         </a>
         <div className="p-5 ">
             <div className=' flex justify-between p-4'>
