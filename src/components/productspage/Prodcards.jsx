@@ -9,7 +9,7 @@ const Prodcards = () => {
   return (
 
     <div className='mx-auto max-w-screen-2xl '>
-    <div className=" py-10 px-4 mb-4 flex items-center justify-center gap-8 sm:mb-8 md:mb-12">
+    <div className=" py-2 px-4 mb-4 flex items-center justify-center gap-8 md:py-4 lg:py-6 sm:mb-8 md:mb-12">
             <div className="flex items-center gap-12 mt-10">
                 <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Our Products</h2>
 

@@ -33,7 +33,7 @@ const Contactus = () => {
 
    <div className="flex items-center justify-start p-4">
   <div className="mx-auto w-full max-w-lg">
-    <h1 className="text-4xl font-medium">Fill in the form to start a conversation</h1>
+  <h1 className="text-4xl font-medium"> Call us on <span className='text-blue-500'>+123456789</span> <br/> or fill in the form to start a conversation</h1>
     
     <form action="https://api.web3forms.com/submit" className="mt-10">
     

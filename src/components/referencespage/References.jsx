@@ -7,7 +7,6 @@ const References = () => {
   return (
     <div>
         <Galleryreferences/>
-        <Homegallery/>
         <Contactus/>
     </div>
   )
