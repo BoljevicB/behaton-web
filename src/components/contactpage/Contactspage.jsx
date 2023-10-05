@@ -2,43 +2,44 @@ import React from 'react'
 
 const Contactspage = () => {
   return (
-    <div className="md:h-screen lg:h-screen md:flex">
-	<img src='https://images.unsplash.com/photo-1632316826599-6ebd57e890ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80'
-		className="relative overflow-hidden md:flex  lg:rounded-md w-1/2 bg-gradient-to-tr from-blue-800 to-purple-700 i justify-around items-center hidden"
-	/>
-    
-	<div className="flex md:w-1/2 justify-center py-10 items-center bg-white">
-    <div className="flex items-center justify-start p-4">
-  <div className="mx-auto w-full max-w-lg">
-    <h1 className="text-4xl font-medium"> Call us on <span className='text-blue-500'>+123456789</span> <br/> or fill in the form to start a conversation</h1>
-    
-    <form action="https://api.web3forms.com/submit" className="mt-10">
-    
-    {/* <!-- This is a working contact form. 
-         Get your free access key from: https://web3forms.com/  --> */}
+    <section class="text-gray-600 body-font relative">
 
-      <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
-      <div className="grid gap-6 sm:grid-cols-2">
-        <div className="relative z-0">
-          <input type="text" name="name" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
-          <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your name</label>
+  <div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap">
+    <div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+      <iframe width="100%" height="100%" className="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d94233.63094106004!2d19.173478840797106!3d42.43197124301529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134de8079606867d%3A0x6bf78a76ea588ae9!2z0J_QvtC00LPQvtGA0LjRhtCwLCDQp9C10YDQvdC-0LPQvtGA0LjRjw!5e0!3m2!1sru!2sru!4v1696527031519!5m2!1sru!2sru"></iframe>
+      <div class="bg-white relative flex flex-wrap py-6 rounded shadow-md">
+        <div class="lg:w-1/2 px-6">
+          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">ADDRESS</h2>
+          <p class="mt-1">Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter</p>
         </div>
-        <div className="relative z-0">
-          <input type="text" name="email" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" " />
-          <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your email</label>
-        </div>
-        <div className="relative z-0 col-span-2">
-          <textarea name="message" rows="5" className="peer block w-full appearance-none border-0 border-b border-gray-500 bg-transparent py-2.5 px-0 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0" placeholder=" "></textarea>
-          <label className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-sm text-gray-500 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75 peer-focus:text-blue-600 peer-focus:dark:text-blue-500">Your message</label>
+        <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
+          <a class="text-indigo-500 leading-relaxed">example@email.com</a>
+          <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
+          <p class="leading-relaxed">123-456-7890</p>
         </div>
       </div>
-      <button type="submit" className="mt-5 rounded-md bg-black px-10 py-2 text-white">Send Message</button>
-    </form>
+    </div>
+    <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+      <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+      <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion axe</p>
+      <div class="relative mb-4">
+        <label for="name" class="leading-7 text-sm text-gray-600">Name</label>
+        <input type="text" id="name" name="name" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+      </div>
+      <div class="relative mb-4">
+        <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+        <input type="email" id="email" name="email" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"/>
+      </div>
+      <div class="relative mb-4">
+        <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+        <textarea id="message" name="message" class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+      </div>
+      <button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+      <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral artisan.</p>
+    </div>
   </div>
-</div>
-</div>
-
-</div>
+</section>
   )
 }
 
