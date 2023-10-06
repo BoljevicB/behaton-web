@@ -10,34 +10,26 @@ const Footer = () => {
     <Link to="/products" className="hover:text-gray-900">Products</Link>
     <Link to="/services" className="hover:text-gray-900">Services</Link>
     <Link to="/references" className="hover:text-gray-900" >Reference</Link>
-        <Link to="/blog" className="hover:text-gray-900">Blog</Link>
-        <Link to="/about" className="hover:text-gray-900">About</Link>
-        <Link to="/contact" class="hover:text-gray-900">Contact</Link>
+    <Link to="/blog" className="hover:text-gray-900">Blog</Link>
+    <Link to="/about" className="hover:text-gray-900">About</Link>
+    <Link to="/contact" class="hover:text-gray-900">Contact</Link>
     </nav>
     
     <div className="flex justify-center space-x-5">
         <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/facebook-new.png" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/linkedin-2.png" />
-        </a>
+        
         <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
             <img src="https://img.icons8.com/fluent/30/000000/instagram-new.png" />
-        </a>
-        <a href="https://messenger.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/facebook-messenger--v2.png" />
-        </a>
-        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="https://img.icons8.com/fluent/30/000000/twitter.png" />
         </a>
     </div>
     
     <ul className='text-center'>
-                    <li className="my-2">
+                    <li className="pb-2">
                         <a className="text-gray-800" href="#">XXX XXXX, Floor 4 San Francisco, CA</a>
                     </li>
-                    <li className="my-2">
+                    <li className="">
                         <a className="text-gray-800" href="#">contact@company.com</a>
                     </li>
                 </ul>
