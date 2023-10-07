@@ -12,11 +12,13 @@ import About from './components/aboutpage/About';
 import Contactspage from './components/contactpage/Contactspage';
 
 
+
 function App() {
   return (
     <div>
       <div className='px-3'>
       <Navbar/>
+      
       </div>
       <Routes>
             <Route path="/" element={<Home/>}/>
