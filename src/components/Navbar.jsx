@@ -15,7 +15,9 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center p-2 max-w-[1240px] mx-auto' >
-        <div className='flex flex-row gap-1'><img src={Logo} alt='logo' className='w-8 h-8'/> <Link to="/"><h1 className='text-3xl font-bold mr-2'>BEHAMONT</h1></Link></div>
+        <div className='flex flex-row gap-1'><img src={Logo} alt='logo' className='w-8 h-8'/> 
+        <Link to="/"><h1 className='text-3xl font-bold mr-2'>BEHAMONT</h1></Link>
+        </div>
         <ul className='hidden md:flex text-xl font-medium ml-4'>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Pocetna</Link></li>
             <li className='p-4 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/products'>Proizvodi</Link></li>
@@ -33,7 +35,7 @@ const Navbar = () => {
     <div className={ nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-white ease-in-out duration-500 z-[100] lg:hidden md:hidden' : 'fixed left-[-155%]' } >
     <h1 className='text-3xl font-bold m-6 py-2' >BEHAMONT</h1>
        
-        <ul className='uppercase p-4 '>
+        <ul className='uppercase p-4 ' onClick={() => setNav(false)}>
             <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/'>Pocetna</Link></li>
             <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/products'>Proizvodi</Link></li>
             <li className='p-4 border-b border-gray-900 hover:text-[#1A5DAD] ease-in duration-100'><Link to='/services'>Usluge</Link></li>
