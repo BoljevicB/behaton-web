@@ -45,7 +45,7 @@ function About() {
         <h2 className="text-3xl font-bold sm:text-4xl">Ekonomični, stručni i opremljeni</h2>
 
         <p className="mt-4 text-gray-600">
-        Tehnološki postupak izrade je mašinski, u kalup formatima, tako da je moguća izrada većeg broja istih elemenata. Naš kupac nikada nije prepušten samom sebi. Pored izrade, vršimo i ugradnju svih elemenata u skladu sa dogovorom i željama komintenata. Vaše je da odlučite i da nam se javite, a mi smo tu da Vam pomognemo i realizujemo sve Vaše želje.
+        Naši proizvodi su proizvedeni po češkoj tehnologiji, sa kvalitetnim drobljenim kamenom, različitih granulata, obojeni sa Bazer-oksidnim bojama koje garantuju dugogodišnju postojanost u svim vremenskim prilikama. Proizvodimo i prodajemo betonsku galanteriju (behaton ploče, ivičnjake i slivnike) za popločavanje staza, dvorišta, bašta, prostora oko bazena, trotoara, trgovai drugih površina koje zahtevaju izdržljive, kvalitetne i dekorativne obloge.Prednosti površina obloženih našim pločama su izdržljivost na pritisak tereta, lijep dizajn(barok ploče), otporne su na ekstremna atmosferska opterećenja (snijeg, mraz, kiša), glatke su i ne kližu se, a u slučaju potrebe veoma lako se podižu i ponovopostavljaju. 
         </p>
       </div>
     </div>

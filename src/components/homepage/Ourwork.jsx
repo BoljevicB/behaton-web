@@ -14,24 +14,22 @@ const Ourwork = () => {
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white rounded-lg shadow-lg p-8 hover:bg-gray-100">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Services</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Usluge</h2>
                 <p class="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                    semper.
+                Proizvodnja, prodaja i ugradnja betonske galanterije.
                 </p>
             </div>
             <div class="bg-white rounded-lg shadow-lg p-8 hover:bg-gray-100">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">About Us</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">O nama</h2>
                 <p class="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                    semper.
+                Mi se bavi proizvodnjom ekskluzivne betonske galanterije sa širokom paletom proizvoda.
                 </p>
             </div>
             <div class="bg-white rounded-lg shadow-lg p-8 hover:bg-gray-100">
-                <h2 class="text-xl font-bold text-gray-800 mb-4">Contact</h2>
+                <h2 class="text-xl font-bold text-gray-800 mb-4">Kontakt</h2>
                 <p class="text-gray-700">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sit amet magna id ex hendrerit
-                    semper.
+                Tel - +382123456<br/>
+                E-mail - behamont@mail.com
                 </p>
             </div>
         </div>

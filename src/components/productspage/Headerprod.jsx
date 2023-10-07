@@ -22,17 +22,15 @@ const Headerprod = () => {
       <div className="relative flex flex-col items-start w-full max-w-xl px-4 mx-auto md:px-0 lg:px-8 lg:max-w-screen-xl">
         <div className="mb-4 lg:my-40 lg:max-w-lg lg:pr-5">
           <h2 className="mb-5 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            We make quality
+          &nbsp;Mi proizvodimo
             <br className="hidden md:block" />
-            and beautiful
+            &nbsp;kvalitetnu
             <span className="inline-block text-deep-purple-accent-400">
-            decorative tiles
+          &nbsp;betonsku galanteriju.
             </span>
           </h2>
           <p className="pr-5 mb-5 text-base text-gray-700 md:text-lg">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae. explicabo.
+          U betonskoj galanteriji je dizajnirano mnoštvo raznih oblika namenjenih uređenju spoljašnjeg prostora. U odnosu na druge materijale beton je u prednosti, kad se u razmatranje uzme više zahteva za: praktičnost, cena, estetika, ekološka prihvatljivost, postojanost u prostoru i vremenu i slično.
           </p>
         </div>
       </div>

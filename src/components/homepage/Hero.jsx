@@ -10,8 +10,8 @@ const Hero = () => {
   </div>
   
   <div className="relative z-10 flex flex-col justify-center items-center md:items-start lg:items-start lg:ml-52 h-full text-center p-4">
-    <h1 className="text-5xl font-bold leading-tight mb-4">Welcome to BEHAMONT</h1>
-    <p className="text-center md:text-left lg:text-left text-lg text-gray-200 mb-8">Mi se bavimo proizvodnjom, <br/> projektovanjem i ugradnjom <br/> behaton ploča i ostalih betonskih elemenata.<br/> Našu gamu proizvoda čine: <br/> behaton ploče, ivičnjaci,rigole i betonske cevi. </p>
+    <h1 className="text-5xl font-bold leading-tight mb-4">BEHAMONT</h1>
+    <p className="text-center md:text-left lg:text-left text-lg text-gray-200 mb-8">Mi se bavimo proizvodnjom, <br/> projektovanjem i ugradnjom <br/> ekskluzivne betonske galanterije <br/> sa širokom paletom proizvoda.<br/> Našu gamu proizvoda čine: <br/> behaton ploče, ivičnjaci, kanalice, raster parkinzi. </p>
     <Link to="/contact" className="bg-white  text-gray-900 hover:bg-black hover:text-white py-2 px-6 rounded-lg border border-gray-400 text-lg font-semibold transition duration-300 transform hover:shadow-lg hover:border-gray-500">Contact Us</Link>
   </div>
 </div>

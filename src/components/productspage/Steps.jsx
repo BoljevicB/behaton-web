@@ -5,14 +5,11 @@ import Construct from '../../imgs/construct.png'
 
 const Steps = () => {
   return (
-    <div className="max-w-screen-lg mx-auto my-4 px-4 sm:px-6 md:my-8 lg:my-8 lg:px-8 flex flex-col justify-between">
+    <div className="max-w-screen-lg mx-auto my-4 px-4 sm:px-6 md:my-8 lg:my-8 lg:py-8 flex flex-col justify-between">
 
     <div className="text-center">
-        <p className="mt-4 text-sm leading-7 text-gray-500 font-regular">
-            STEPS
-        </p>
         <h3 className="text-3xl sm:text-5xl leading-normal font-extrabold tracking-tight text-gray-900">
-            How it Works?
+            Kako mi radimo?
         </h3>
 
     </div>
@@ -28,7 +25,7 @@ const Steps = () => {
                         />
                     </div>
                     <div className="mt-4">
-                        <h4 className="text-lg leading-6 font-semibold text-gray-900">Consult</h4>
+                        <h4 className="text-lg leading-6 font-semibold text-gray-900">Konsultacija</h4>
                         <p className="mt-2 text-base leading-6 text-gray-500">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>
@@ -44,7 +41,7 @@ const Steps = () => {
                         
                     </div>
                     <div className="mt-4">
-                        <h4 className="text-lg leading-6 font-semibold text-gray-900">Make Choice</h4>
+                        <h4 className="text-lg leading-6 font-semibold text-gray-900">Vas idejni izbor</h4>
                         <p className="mt-2 text-base leading-6 text-gray-500">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>
@@ -58,7 +55,7 @@ const Steps = () => {
                             className="flex items-center justify-center h-20 w-20 rounded-full text-white border-4 border-white text-xl font-semibold"/>
                     </div>
                     <div className="mt-4">
-                        <h4 className="text-lg leading-6 font-semibold text-gray-900">We Construct</h4>
+                        <h4 className="text-lg leading-6 font-semibold text-gray-900">Izvodjenje radova</h4>
                         <p className="mt-2 text-base leading-6 text-gray-500">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                         </p>

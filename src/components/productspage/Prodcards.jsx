@@ -11,10 +11,9 @@ const Prodcards = () => {
     <div className='mx-auto max-w-screen-2xl '>
     <div className=" py-2 px-4 mb-4 flex items-center justify-center gap-8 md:py-4 lg:py-6 sm:mb-8 md:mb-12">
             <div className="flex items-center gap-12 mt-10">
-                <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Our Products</h2>
+                <h2 className="text-2xl font-bold text-gray-800 lg:text-3xl">Nasi Proizvodi</h2>
 
-                <p className="max-w-screen-sm text-gray-500 md:block">This is a section of some simple filler text,
-                    also known as placeholder text. It shares some characteristics of a real written text.</p>
+                <p className="max-w-screen-sm text-gray-500 md:block"> Uređenje gradskih ulica, trgova, parkova je već nezamislivo bez primene betonske galanterije.</p>
             </div>
         </div>
         

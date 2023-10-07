@@ -14,15 +14,15 @@ const Blog = () => {
           
           <div className="max-w-xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none">
-              Our blog
+              Blog
               <br className="hidden md:block" />
-              about tiles{' '}
+              o dekorativnoj{' '}
               <span className="inline-block">
-                and design
+              betonskoj galanteriji
               </span>
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.
+            Saznajte vise o umetnosti poplocavanja i tehnologiji ugradnje betonske galanterije.
             </p>
           </div>
           
@@ -32,7 +32,7 @@ const Blog = () => {
     
 
 
-    <div className="px-4 py-8 mx-auto grid gap-8 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-8">
+    <div className="px-6 py-8 mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3  lg:max-w-screen-xl md:px-4 lg:px-8 lg:py-8">
 
     {dataBlog.map((dataBlog) => (
       

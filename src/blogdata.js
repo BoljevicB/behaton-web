@@ -2,21 +2,21 @@ const blogdata = {
     dataBlog: [
     {
         id: 1,
-        title: "Lorem ipsum dolor sit",
+        title: "Kako postaviti betonske elemente",
         image:
             "https://images.unsplash.com/photo-1573247218982-c04cd6fec3a8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500",
         textPreview: "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque."
     },
     {
         id: 2,
-        title: "Lorem ipsum dolor sit",
+        title: "Šta su behaton ploče i kako se koriste?",
         image:
             "https://images.unsplash.com/photo-1605696420965-9247f11e1acd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
         textPreview: "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque."
     },
     {
         id: 3,
-        title: "Lorem ipsum dolor sit",
+        title: "Priprema terena pred poplocavanjem",
         image:
             "https://images.unsplash.com/photo-1657045898661-1a56bc5a8fd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260",
         textPreview: "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni voluptatem doloremque."
