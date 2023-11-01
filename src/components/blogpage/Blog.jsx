@@ -1,5 +1,6 @@
 import React from 'react'
 import blogdata from '../../blogdata'
+import Carousel from '../Carousel';
 
 const Blog = () => {
 

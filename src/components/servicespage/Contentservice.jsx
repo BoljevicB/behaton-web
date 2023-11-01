@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Contentservice = () => {
   return (
     <div className="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-12 flex flex-col gap-6">
@@ -8,7 +9,7 @@ const Contentservice = () => {
       <h1 className="text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">Nase Usluge</h1>
       <p className="text-base leading-normal text-center text-gray-600 dark:text-white mt-4 lg:w-1/2 md:w-10/12 w-11/12">Dugogodisnje iskustvo proizvodnje i ugradnje betonske galanterije</p>
     </div>
-
+  
 
       <div className="flex flex-col max-w-screen-lg overflow-hidden bg-white border rounded shadow-sm lg:flex-row sm:mx-auto gap">
         <div className="relative lg:w-1/2">
